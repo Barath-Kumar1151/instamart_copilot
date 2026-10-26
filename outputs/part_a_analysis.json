@@ -1,0 +1,175 @@
+{
+  "Q1": {
+    "rows": 30,
+    "columns": [
+      "customer_id",
+      "spend_over_500"
+    ]
+  },
+  "Q2": {
+    "rows": 30,
+    "columns": [
+      "city",
+      "category",
+      "revenue"
+    ],
+    "revenue_sum": 2998668.8,
+    "largest_row": {
+      "city": "Bengaluru",
+      "category": "Electronics",
+      "revenue": 233909.45
+    }
+  },
+  "Q3": {
+    "rows": 11,
+    "columns": [
+      "product_id",
+      "product_name",
+      "price_inr"
+    ]
+  },
+  "Q4": {
+    "rows": 25,
+    "columns": [
+      "customer_id"
+    ]
+  },
+  "Q5": {
+    "rows": 550,
+    "columns": [
+      "customer_id",
+      "total_spend"
+    ],
+    "average_customer_spend": 2552.06
+  },
+  "Q6": {
+    "rows": 1175,
+    "columns": [
+      "customer_id",
+      "city",
+      "total_spend",
+      "spend_rank",
+      "dense_rank",
+      "row_num"
+    ],
+    "rank_diff_rows": 8,
+    "top_by_city": [
+      {
+        "city": "Bengaluru",
+        "customer_id": "C0082",
+        "total_spend": 12856.199999999999
+      },
+      {
+        "city": "Chennai",
+        "customer_id": "C0930",
+        "total_spend": 10151.4
+      },
+      {
+        "city": "Delhi",
+        "customer_id": "C0291",
+        "total_spend": 13742.599999999999
+      },
+      {
+        "city": "Hyderabad",
+        "customer_id": "C0743",
+        "total_spend": 12730.05
+      },
+      {
+        "city": "Mumbai",
+        "customer_id": "C0693",
+        "total_spend": 14766.55
+      },
+      {
+        "city": "Pune",
+        "customer_id": "C0426",
+        "total_spend": 10377.1
+      }
+    ]
+  },
+  "Q7": {
+    "rows": 183,
+    "columns": [
+      "day",
+      "revenue",
+      "cumulative_revenue"
+    ],
+    "last_cumulative": 2998668.8
+  },
+  "pandas_pivot_grand_total": 2998668.8,
+  "city_stats": [
+    {
+      "city": "Bengaluru",
+      "total": 523643.39999999956,
+      "mean": 276.47486800422365,
+      "count": 1894
+    },
+    {
+      "city": "Chennai",
+      "total": 463629.14999999973,
+      "mean": 272.72302941176457,
+      "count": 1700
+    },
+    {
+      "city": "Delhi",
+      "total": 502829.8,
+      "mean": 243.61908914728681,
+      "count": 2064
+    },
+    {
+      "city": "Hyderabad",
+      "total": 528589.8999999999,
+      "mean": 284.95412398921826,
+      "count": 1855
+    },
+    {
+      "city": "Mumbai",
+      "total": 479058.4999999998,
+      "mean": 296.9984500929943,
+      "count": 1613
+    },
+    {
+      "city": "Pune",
+      "total": 500918.0500000003,
+      "mean": 252.47885584677434,
+      "count": 1984
+    }
+  ],
+  "amount_stats": {
+    "mean": 269.9071827182718,
+    "median": 135.0,
+    "skew": 4.608827438881415,
+    "q1": 64.8,
+    "q2": 135.0,
+    "q3": 297.0,
+    "lower_fence": -283.49999999999994,
+    "upper_fence": 645.3,
+    "outliers_below": 0,
+    "outliers_above": 897,
+    "correlation": {
+      "order_amount": {
+        "order_amount": 1.0,
+        "discount_pct": -0.0951058554520402,
+        "quantity": 0.08729422983969999,
+        "delivery_minutes": -0.0031349743498587106
+      },
+      "discount_pct": {
+        "order_amount": -0.0951058554520402,
+        "discount_pct": 1.0,
+        "quantity": -0.0003585447268408507,
+        "delivery_minutes": -0.009808140918703969
+      },
+      "quantity": {
+        "order_amount": 0.08729422983969999,
+        "discount_pct": -0.0003585447268408507,
+        "quantity": 1.0,
+        "delivery_minutes": -0.01262279240426582
+      },
+      "delivery_minutes": {
+        "order_amount": -0.0031349743498587106,
+        "discount_pct": -0.009808140918703969,
+        "quantity": -0.01262279240426582,
+        "delivery_minutes": 1.0
+      }
+    }
+  }
+}

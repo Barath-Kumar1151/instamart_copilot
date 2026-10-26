@@ -1,0 +1,25 @@
+{
+  "clean_customers": 1200,
+  "city_counts": {
+    "Pune": 227,
+    "Delhi": 210,
+    "Bengaluru": 197,
+    "Chennai": 191,
+    "Hyderabad": 191,
+    "Mumbai": 184
+  },
+  "gender_counts": {
+    "female": 610,
+    "male": 560,
+    "unknown": 30
+  },
+  "missing_ages": 0,
+  "clean_orders": 12309,
+  "status_counts": {
+    "completed": 11110,
+    "cancelled": 1199
+  },
+  "completed_amount_sum": 2998668.8,
+  "missing_completed_delivery": 0,
+  "missing_cancelled_delivery": 1199
+}

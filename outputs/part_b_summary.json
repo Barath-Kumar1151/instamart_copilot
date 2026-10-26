@@ -1,0 +1,117 @@
+{
+  "rf_best_params": {
+    "model__max_depth": 5,
+    "model__min_samples_leaf": 10
+  },
+  "rf_cv_f1": 0.6850191717669742,
+  "rf_test": {
+    "confusion_matrix": [
+      [
+        109,
+        34
+      ],
+      [
+        30,
+        59
+      ]
+    ],
+    "precision": 0.6344086021505376,
+    "recall": 0.6629213483146067,
+    "f1": 0.6483516483516484,
+    "accuracy": 0.7241379310344828
+  },
+  "lr_best_params": {
+    "model__C": 10
+  },
+  "lr_cv_f1": 0.6564709088340102,
+  "lr_test": {
+    "confusion_matrix": [
+      [
+        104,
+        39
+      ],
+      [
+        32,
+        57
+      ]
+    ],
+    "precision": 0.59375,
+    "recall": 0.6404494382022472,
+    "f1": 0.6162162162162163,
+    "accuracy": 0.6939655172413793
+  },
+  "balanced_lr_test": {
+    "confusion_matrix": [
+      [
+        90,
+        53
+      ],
+      [
+        11,
+        78
+      ]
+    ],
+    "precision": 0.5954198473282443,
+    "recall": 0.8764044943820225,
+    "f1": 0.7090909090909091,
+    "accuracy": 0.7241379310344828
+  },
+  "logistic_coefficients": {
+    "num__frequency": -1.588850406401055,
+    "num__recency": 0.03424325234049584,
+    "num__cancellation_rate": -0.1316929423184002
+  },
+  "baseline": {
+    "accuracy": 0.6163793103448276,
+    "f1": 0.0
+  },
+  "cohort_rows": 1156,
+  "lapsed_count": 443,
+  "lapsed_rate": 0.38321799307958476,
+  "train_rows": 924,
+  "test_rows": 232,
+  "chosen_model": "random_forest",
+  "chosen_test": {
+    "confusion_matrix": [
+      [
+        109,
+        34
+      ],
+      [
+        30,
+        59
+      ]
+    ],
+    "precision": 0.6344086021505376,
+    "recall": 0.6629213483146067,
+    "f1": 0.6483516483516484,
+    "accuracy": 0.7241379310344828
+  },
+  "reload_predictions_identical": true,
+  "premium_retention_rows": 10,
+  "premium_retention_actually_lapsed": 0,
+  "train_frequency_scaler_mean": 8.114718614718615,
+  "full_cohort_frequency_mean": 8.028546712802768,
+  "rf_top_features": [
+    {
+      "feature": "num__frequency",
+      "importance": 0.3665604924833464
+    },
+    {
+      "feature": "num__monetary",
+      "importance": 0.2287612259179512
+    },
+    {
+      "feature": "num__recency",
+      "importance": 0.09337639346115921
+    },
+    {
+      "feature": "num__cancellation_rate",
+      "importance": 0.0796277907108982
+    },
+    {
+      "feature": "num__avg_discount",
+      "importance": 0.04686633171948129
+    }
+  ]
+}

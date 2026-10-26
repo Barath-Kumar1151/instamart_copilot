@@ -1,0 +1,21 @@
+[
+  {
+    "overlap": 10,
+    "chunks": 15,
+    "answerable_doc_hit": "12/12",
+    "answerable_fact": "12/12",
+    "unanswerable_fallback": "2/2",
+    "failed_questions": []
+  },
+  {
+    "overlap": 0,
+    "chunks": 13,
+    "answerable_doc_hit": "12/12",
+    "answerable_fact": "10/12",
+    "unanswerable_fallback": "2/2",
+    "failed_questions": [
+      "What delivery time makes a completed order eligible for a full refund?",
+      "How soon is money returned when a payment fails but is deducted?"
+    ]
+  }
+]
